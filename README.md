@@ -31,3 +31,8 @@ Changes to Outputs:
 ### List variable usages:
   
   Single quotes:  terraform plan -var 'users=["shashank","Kamini"]'
+
+
+  ### Terraform map:
+  value= "Hi ${var.username}, your age is ${lookup(var.usersage,"shashank")}" 
+  
