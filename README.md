@@ -35,4 +35,6 @@ Changes to Outputs:
 
   ### Terraform map:
   value= "Hi ${var.username}, your age is ${lookup(var.usersage,"shashank")}" 
-  
+
+  ### TFVARs  File Read Data:
+   terraform plan -var-file=deployment.tfvars
