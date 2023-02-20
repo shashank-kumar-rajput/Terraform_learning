@@ -22,4 +22,8 @@ Changes to Outputs:
 
   ### Overriding default values:
     terraform plan --var "username=shashank1" --var "age=26"
-  
+  ### Types of Variables:
+    string,bool, set, list(string), list(objects({
+        a= number
+        b= strind
+    }))
