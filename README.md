@@ -27,3 +27,7 @@ Changes to Outputs:
         a= number
         b= strind
     }))
+
+### List variable usages:
+  
+  Single quotes:  terraform plan -var 'users=["shashank","Kamini"]'
